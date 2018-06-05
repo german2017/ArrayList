@@ -1,0 +1,29 @@
+int returnAux = -1;
+    int flag=1;
+    void** aux;
+
+    if(this!=NULL && pElement!=NULL)
+    {
+
+        if(/*Llegue al limite del array*/)
+        {
+
+            /*Aumento espacio en memoria*/
+            if(aux!=NULL)
+            {
+                /*?? */
+            }
+            else
+            {
+                flag=0;
+            }
+        }
+        if(flag==1)
+        {
+            /*Agrego el elemento*/
+
+              returnAux=0;
+        }
+    }
+
+    return returnAux;
